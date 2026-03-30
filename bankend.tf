@@ -3,7 +3,7 @@ terraform {
     bucket = "amruth-bucket-swamy-30-26"
     key    = "amruth/terraform.tfstate"
     region = "ap-south-2"
-    #dynamodb_table = "terraform-locks"
+    dynamodb_table = "terraform-locks"
     
   }
 }
